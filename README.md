@@ -7,6 +7,7 @@ This is the Graduation thesis of Nguyen Thanh Loc and Cao Hoang Khang
 <p><b>Student</b></p>
 <p>when using a Student account to log in. Students can do a number of operations such as examining comprehensive account information and altering some allowed information, seeing rooms, viewing bills, sending requests such as: check-out request, request room transfer request, room repair request, and dormitory stay extension request.</p>
 <p> Some illustrations for Student accounts </p>
+
 ![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/375d3ad5-7f03-4c4d-bcb8-e8ce4fca1089)
 
 ![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/9c10e55c-ae0d-4a4b-bef9-e5d57a22039c)
