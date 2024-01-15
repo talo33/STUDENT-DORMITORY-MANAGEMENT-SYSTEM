@@ -1,13 +1,7 @@
 <h1> STUDENT DORMITORY MANAGEMENT SYSTEMt </h1>
-> This is the Graduation thesis of Nguyen Thanh Loc and Cao Hoang Khang
-<h1> Requirement </h1>
-<p>1. Permissions: Admin & User.</p>
-<p>2. Web operations: List User list in grid form (100 users, each page will contain from 5 ~ 10 users) </p>
-<p>3. Admin can perform delete command directly on the list. </p>
-<p>4. The delete permission is only allowed by the admin. </p>
-<p>5. User when created is added directly to the list. </p>
-<p>6. The user can execute the Modify command for that user. </p>
-<p>7. The modify permission can only be executed by a single user. </p>
+This is the Graduation thesis of Nguyen Thanh Loc and Cao Hoang Khang
+<h1> Introduction </h1>
+<p>2. a vital solution for the growing challenges in student accommodation. As the number of students studying away from home rises, the need for effective dormitory management becomes paramount. Our system addresses the shortcomings of traditional registration methods, providing an online platform for convenient registration from anywhere. It aims to optimize management processes, offering flexibility in handling student, room, and dormitory operations. Beyond technological advancement, our focus is on modernizing education, optimizing resource management, and enhancing the overall student experience. Join us in this transformative journey toward efficient and student-centric dormitory living. Welcome to a future where registration is seamless, management is optimized, and the student experience is unparalleled! </p>
 <h1> Brief about this project </h1>
 <p><b>Admin</b></p>
 <p>When logging in with the Admin account, you will access the manager's dashboard, where the admin has the right to delete any user in the registered user data table (data in the table is added directly every time someone has registered an account). In addition, on the Admin's page, you can see the current weather information on the Weather page. Finally, you can log out of your account.</p>
