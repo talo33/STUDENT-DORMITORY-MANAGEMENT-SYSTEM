@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* Headings */
+.first-title {
+  font-family: 'Dancing Script', cursive !important;
+  color: #e52b34;
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  text-align: center;
+}
+.second-title {
+  text-align: center;
+  font-family: sans-serif !important;
+  position: relative;
+  top: -25px;
+  font-weight: bold !important;
+}
+
+/* Small devices (mobile Screens, 430px) */
+@media only screen and (max-width: 430px) {
+  .home {
+    height: 50vh;
+  }
+  .home .content h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #About {
+    background-image: none !important;
+  }
+  #About p {
+    width: auto !important;
+  }
+  .footer a {
+    display: block;
+  }
+
+  .table-detail-card {
+    width: 82%;
+  }
+  .Table-Detail {
+    background-image: none !important;
+    margin-bottom: 55px !important;
+  }
+  .table-detail-card {
+    width: auto !important;
+  }
+  .orders {
+    background-size: cover !important;
+  }
+  .ReviewPage {
+    flex-direction: column-reverse;
+  }
+  .contact .card {
+    width: auto !important;
+  }
+  .review-item:nth-child(2n) {
+    margin-left: 0 !important;
+  }
+  .review-item {
+    min-width: 300px;
+  }
+  .success-page {
+    margin: 0;
+  }
+  .success-card {
+    width: auto !important;
+  }
+  .order-card {
+    width: 300px !important;
+  }
+  .OrderDetail {
+    width: auto !important;
+    height: auto !important;
+    background-image: none !important;
+    padding: 10px !important;
+  }
+  .detail-card {
+    width: auto !important;
+  }
+}
+
+/* Large devices (tablets, 900px ) */
+@media only screen and (max-width: 900px) {
+  .home .content h2 {
+    font-size: 30px !important;
+  }
+  .ReviewPage {
+    flex-flow: column-reverse;
+  }
+  .Reviews-items {
+    flex-direction: row !important;
+    overflow-x: scroll;
+    height: 300px !important;
+  }
+  .review-item {
+    min-width: 300px;
+  }
+  .review-item:nth-child(2n) {
+    margin-left: 0 !important;
+  }
+  .comment-text {
+    display: block !important;
+  }
+  .Auth {
+    background-image: none !important;
+  }
+  .Auth .card {
+    border: 1px solid lightgrey !important;
+    width: auto !important;
+    margin-left: 0 !important;
+    padding: 1rem !important;
+  }
+  .Auth input {
+    width: 300px !important;
+  }
+}
+
+.custom_input_field {
+  @apply block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6;
+}
+
+.custom_select_field {
+  @apply block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6;
+}
+
+.custom_save_button {
+  @apply rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
+}
+
+.table .table-bordered {
+  border-top: 1px solid #e5e5e5;
+}
+
+.table-bordered th,
+.table-bordered tr,
+.table-bordered td {
+  border: 1px solid #ddd;
+}
+
+.mobile_menu_selection {
+  @apply -mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50;
+}
+
+.profile_form_label {
+  @apply block text-sm font-medium leading-6 text-gray-900;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.shared_primary_button {
+  @apply inline-flex items-center gap-x-1.5 rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+}
+
+.shared_delete_button {
+  @apply inline-flex items-center gap-x-1.5 rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600;
+}

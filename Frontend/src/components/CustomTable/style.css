@@ -1,0 +1,85 @@
+.custom-table {
+    user-select: none;
+  }
+  .custom-table .ant-table-thead .ant-table-cell {
+    font-weight: 700;
+    height: 50px;
+    text-align: center;
+  }
+  .custom-table .color-active {
+    background-color: #e0edff;
+  }
+  .custom-table .color-active .ant-table-cell {
+    background-color: #e0edff !important;
+  }
+  .custom-table .color-active .ant-table-cell .ant-btn-background-ghost.ant-btn-primary {
+    background-color: white;
+  }
+  .table_layout_paths-mangement .ant-table-row:hover td {
+    cursor: pointer;
+    user-select: none;
+    background: #eee !important;
+  }
+  .ant-pagination,
+  .ant-table-pagination {
+    position: relative !important;
+    margin-bottom: 0 !important;
+    margin-right: 25px !important;
+  }
+  .ant-pagination .ant-pagination-options,
+  .ant-table-pagination .ant-pagination-options {
+    z-index: 999;
+    background: #fff;
+    position: absolute;
+    right: 40px;
+  }
+  .ant-pagination .ant-pagination-options .ant-select-selector,
+  .ant-table-pagination .ant-pagination-options .ant-select-selector {
+    color: #000 !important;
+  }
+  .ant-pagination .ant-pagination-options .ant-select-selector ::before,
+  .ant-table-pagination .ant-pagination-options .ant-select-selector ::before {
+    /* content: 'Hiển thị'; */
+    white-space: nowrap;
+    position: absolute;
+    right: 37px;
+  }
+  .ant-pagination .ant-pagination-options .ant-select-selector ::after,
+  .ant-table-pagination .ant-pagination-options .ant-select-selector ::after {
+    content: 'bản ghi';
+    white-space: nowrap;
+    position: absolute;
+    left: 55px;
+  }
+  .ant-pagination .ant-pagination-item-link,
+  .ant-table-pagination .ant-pagination-item-link {
+    color: #000;
+    user-select: none;
+  }
+  .ant-pagination .ant-pagination-item-link .ant-pagination-item-link-icon,
+  .ant-table-pagination .ant-pagination-item-link .ant-pagination-item-link-icon {
+    color: #fcac1c !important;
+  }
+  .ant-pagination .ant-pagination-item a,
+  .ant-table-pagination .ant-pagination-item a {
+    padding: 0 !important;
+    color: #000;
+  }
+  .ant-pagination .ant-pagination-item a:hover,
+  .ant-table-pagination .ant-pagination-item a:hover {
+    color: #fcac1c;
+  }
+  .ant-pagination .ant-pagination-item-active,
+  .ant-table-pagination .ant-pagination-item-active {
+    border: none;
+  }
+  .ant-pagination .ant-pagination-item-active a,
+  .ant-table-pagination .ant-pagination-item-active a {
+    padding: 0 !important;
+    /* color: #fff; */
+  }
+  /* .ant-pagination .ant-pagination-item-active a:hover,
+  .ant-table-pagination .ant-pagination-item-active a:hover {
+    color: #fff;
+  } */
+  

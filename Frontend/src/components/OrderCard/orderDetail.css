@@ -1,0 +1,36 @@
+.OrderDetail{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets//images/order.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80%;
+    background-position-y: 100px;
+    padding:50px;
+}
+
+.detail-card{
+    width: 400px;
+    border-radius: 15px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.detail-card p{
+    color: gray;
+    padding:10px 5px;
+    border-bottom: 1px dashed rgba(211, 211, 211, 0.822);
+}
+
+.detail-card li{
+    text-decoration: none !important;
+    display: inline-block;
+    background-color: rgba(211, 211, 211, 0.527);
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: #e52b34a6;
+    margin:10px 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}

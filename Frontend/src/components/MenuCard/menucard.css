@@ -1,0 +1,106 @@
+#Menu .menu-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#Menu {
+  margin: 20px 0;
+}
+
+.Menu-Card {
+  max-width: 350px;
+  border-style: dashed !important;
+  padding: 10px;
+  text-align: center;
+}
+.Menu-Card:hover {
+  border-color: #e52b34;
+}
+.Menu-Item {
+  display: flex;
+  gap: 10px;
+  /* border-bottom: 1px dashed lightgray; */
+  padding: 25px;
+}
+
+.Menu-Item {
+  --c: linear-gradient(#000 0 0); /* update the color here */
+
+  background: var(--c), var(--c);
+  background-size: 2.5em 0.1em;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  transition: 0.3s linear, background-size 0.3s 0.2s linear;
+}
+
+.Menu-Item:hover {
+  background-size: 40% 0.1em;
+  background-position: 10% 100%, 90% 100%;
+  border-color: #e52b34;
+}
+
+.Menu-Item img {
+  width: 25%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.Menu-Item:last-child {
+  border: none;
+}
+.Menu-Item:hover .Menu-Title {
+  color: #e52b34;
+}
+.Menu-Title {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.51);
+  text-align: left;
+}
+#Menu button {
+  width: 200px;
+}
+
+.MenuSingleCard {
+  width: 240px;
+  height: 260px;
+  overflow: hidden;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+.MenuSingleCard img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.MenuSingleCard p {
+  color: gray;
+  font-size: 14px;
+}
+.MenuSingleCard .card-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 10px;
+  z-index: 5;
+  font-size: 14px;
+}
+.card-price::after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  background-color: #e52b34;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  border-radius: 50%;
+}
+.MenuSingleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}

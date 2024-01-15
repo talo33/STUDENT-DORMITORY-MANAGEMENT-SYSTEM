@@ -1,0 +1,29 @@
+.order-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 15px;
+    width: 500px;
+    margin-top: 20px;
+}
+.order-card p{
+    color: gray;
+    font-size: 14px;
+}
+
+.orders{
+    min-height: 82vh;
+    margin-top: 20px;
+    background-image: url(../../assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-position-y:50px ;
+    background-size:contain;
+}
+.orders-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}

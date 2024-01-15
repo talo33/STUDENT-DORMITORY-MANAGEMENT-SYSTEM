@@ -1,0 +1,16 @@
+.BookingBanner {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-image: url('https://tuyensinh.uel.edu.vn/wp-content/uploads/2023/05/Anh-chup-Man-hinh-2023-05-18-luc-15.12.28-1-1536x1048.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.BookingBanner p {
+  letter-spacing: 10px;
+}
