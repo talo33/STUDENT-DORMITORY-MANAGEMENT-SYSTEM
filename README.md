@@ -1,4 +1,4 @@
-<h1> STUDENT DORMITORY MANAGEMENT SYSTEMt </h1>
+<h1> STUDENT DORMITORY MANAGEMENT SYSTEM </h1>
 This is the Graduation thesis of Nguyen Thanh Loc and Cao Hoang Khang
 <h1> Introduction </h1>
 <p> A vital solution for the growing challenges in student accommodation. As the number of students studying away from home rises, the need for effective dormitory management becomes paramount. Our system addresses the shortcomings of traditional registration methods, providing an online platform for convenient registration from anywhere. It aims to optimize management processes, offering flexibility in handling student, room, and dormitory operations. Beyond technological advancement, our focus is on modernizing education, optimizing resource management, and enhancing the overall student experience. Join us in this transformative journey toward efficient and student-centric dormitory living. Welcome to a future where registration is seamless, management is optimized, and the student experience is unparalleled! </p>
