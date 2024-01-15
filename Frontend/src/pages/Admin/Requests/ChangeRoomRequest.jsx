@@ -1,6 +1,5 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import { getAllRequestChange, updateRequestChangeRoom } from 'API/requests';
-import { getColorStatus } from 'DB';
 
 import { PrimaryButton } from 'components/Button/PrimaryButton';
 import CustomTable from 'components/CustomTable';
@@ -10,6 +9,7 @@ import { useDebounce } from 'utils/hook/useDebounce';
 import ModalReason from './ModalReason';
 import { toast } from 'react-toastify';
 import { GlobalContextProvider } from 'context/GlobalContext';
+import { getColorStatus } from 'utils/shared';
 
 const ChangeRoomRequest = () => {
   const { profileData } = useContext(GlobalContextProvider);
@@ -91,9 +91,10 @@ const ChangeRoomRequest = () => {
     {
       title: 'Tác vụ',
       key: 'action',
+      width: '200px',
       render: (_, record) => {
         return (
-          <div className={`${record.requestStatus !== 0 ? 'min-w-[50px]' : 'max-w-[50px]'}`}>
+          <div>
             {record.requestStatus === 0 && (
               <div className="flex gap-3 items-center">
                 <PrimaryButton text={'Duyệt'} onClick={() => updateRequest(record._id, record.userId, 1)} />

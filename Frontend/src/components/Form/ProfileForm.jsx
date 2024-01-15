@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 import { PhotoIcon } from '@heroicons/react/24/solid';
-import { inputProfileArray, profileSchema, universities } from 'DB';
 
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import DatePicker from 'components/DatePicker';
 import moment from 'moment';
+import { inputProfileArray, profileSchema, universities } from 'utils/shared';
 
 const InputProfile = ({
   htmlFor,

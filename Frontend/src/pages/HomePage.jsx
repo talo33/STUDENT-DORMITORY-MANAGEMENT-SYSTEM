@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Home from '../components/Home/Home';
-import BookingBanner from '../components/Banner/BookingBanner';
 import About from '../components/Home/About';
 import Menu from '../components/MenuCard/Menu';
+import Banner from 'components/Banner';
 
 const HomePage = () => {
   return (
@@ -12,7 +12,7 @@ const HomePage = () => {
       </div>
       {/* About Page */}
       <About />
-      <BookingBanner />
+      <Banner />
       {/* Home Page Menu */}
       <Menu />
     </>

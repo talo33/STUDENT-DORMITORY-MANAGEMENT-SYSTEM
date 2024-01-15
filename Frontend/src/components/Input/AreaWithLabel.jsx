@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TextAreaField = (props) => {
-  const { label, defaultValue = '', registerKey, className, rows, register, setState } = props;
+  const { label, defaultValue = '', registerKey, className, rows, register, setState = () => {} } = props;
   return (
     <div>
       <label className="block text-sm font-medium leading-6 text-gray-900">{label}</label>

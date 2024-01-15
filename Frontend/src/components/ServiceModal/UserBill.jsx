@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { getBillDetail } from 'API/bill';
-import { getColor } from 'DB';
+import { getColor } from 'utils/shared';
+
 import CustomTable from 'components/CustomTable';
 import { GlobalContextProvider } from 'context/GlobalContext';
 import moment from 'moment';

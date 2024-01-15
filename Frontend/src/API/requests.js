@@ -7,8 +7,18 @@ export const getAllRequestCheckout = async () => {
   return res.data;
 };
 
+export const getRequestCheckout = async ({ id }) => {
+  const res = await axiosInstance.get(`/rooms/checkout/${id}`);
+  return res.data;
+};
+
 export const getAllRequestChange = async () => {
   const res = await axiosInstance.get(`/rooms/change-room`);
+  return res.data;
+};
+
+export const getRequestChange = async ({ id }) => {
+  const res = await axiosInstance.get(`/rooms/change-room/${id}`);
   return res.data;
 };
 
@@ -17,8 +27,18 @@ export const getAllRequestExtendChange = async () => {
   return res.data;
 };
 
+export const getRequestExtendChange = async ({ id }) => {
+  const res = await axiosInstance.get(`/rooms/extend/${id}`);
+  return res.data;
+};
+
 export const getAllRequestFixRoom = async () => {
   const res = await axiosInstance.get(`/rooms/fix`);
+  return res.data;
+};
+
+export const getRequestFixRoom = async ({ id }) => {
+  const res = await axiosInstance.get(`/rooms/fix/${id}`);
   return res.data;
 };
 

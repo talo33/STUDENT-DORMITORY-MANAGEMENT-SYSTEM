@@ -3,7 +3,8 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { createBill, getAllBills, updateBill } from 'API/bill';
 
 import { getAllStudent } from 'API/user';
-import { getColor } from 'DB';
+import { getColor } from 'utils/shared';
+
 import { Modal, Select, Space } from 'antd';
 import { PrimaryButton } from 'components/Button/PrimaryButton';
 import CustomTable from 'components/CustomTable';

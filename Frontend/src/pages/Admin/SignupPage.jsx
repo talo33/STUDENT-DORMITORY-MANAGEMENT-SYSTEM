@@ -61,7 +61,8 @@ const SignupPage = () => {
   }, [isSuccess, dormData]);
 
   const handleChange = (value) => {
-    setRoom(JSON.parse(value));
+    const newRooms = JSON.parse(value)?.filter((room) => Number(room?.status) === 0);
+    setRoom(newRooms);
   };
 
   const next = () => {
@@ -83,7 +84,7 @@ const SignupPage = () => {
           roomId: selectedRoom._id,
           roomTitle: selectedRoom?.Title,
           dateIn: moment().toDate(),
-          dateOut: moment().add(6, 'months').toDate(),
+          dateOut: moment().add(1, 'months').toDate(),
           status: 0
         }
       });
@@ -154,7 +155,7 @@ const SignupPage = () => {
           options={options}
           handleRegister={handleRegister}
           prev={prev}
-          roomId={room}
+          rooms={room}
           setSelectedRoom={setSelectedRoom}
           selectedRoom={selectedRoom}
         />

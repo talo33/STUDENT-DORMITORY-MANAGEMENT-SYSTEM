@@ -39,7 +39,7 @@ export default function UserMenu() {
       >
         <Popover.Panel className="absolute left-1/2 z-10 flex w-screen max-w-min -translate-x-1/2 px-4 cursor-pointer">
           <div className="w-56 shrink rounded-xl bg-white p-4 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
-            {userRole.RoleId === process.env.REACT_APP_ADMIN_ROLE_ID && (
+            {userRole?.RoleId === process.env.REACT_APP_ADMIN_ROLE_ID && (
               <div className="block p-2 hover:text-indigo-600" onClick={() => navigate('/admin')}>
                 Trang Admin
               </div>

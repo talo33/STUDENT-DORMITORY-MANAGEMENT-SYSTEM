@@ -1,6 +1,5 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import { getAllRequestCheckout, updateRequestCheckout } from 'API/requests';
-import { getColorStatus } from 'DB';
 import { PrimaryButton } from 'components/Button/PrimaryButton';
 import CustomTable from 'components/CustomTable';
 import SectionHeaderWithSearch from 'components/SectionHeader/SectionHeaderWithSearch';
@@ -8,6 +7,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useDebounce } from 'utils/hook/useDebounce';
 import ModalReason from './ModalReason';
 import { GlobalContextProvider } from 'context/GlobalContext';
+import { getColorStatus } from 'utils/shared';
 
 const CheckoutRequest = () => {
   const { profileData } = useContext(GlobalContextProvider);

@@ -3,7 +3,7 @@ import React from 'react';
 import MenuCard from './MenuCard';
 
 import { Link } from 'react-router-dom';
-import { sampleMenu } from '../../DB/MenuDB';
+import { sampleMenu } from 'utils/shared';
 
 const Menu = () => {
   return (

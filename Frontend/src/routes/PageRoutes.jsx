@@ -49,7 +49,7 @@ const PageRoutes = () => {
               path={route.path}
               element={
                 <>
-                  {(currentUser && currentUser.RoleId !== process.env.REACT_APP_ADMIN_ROLE_ID) || !currentUser ? (
+                  {(currentUser && currentUser?.RoleId !== process.env.REACT_APP_ADMIN_ROLE_ID) || !currentUser ? (
                     <Navigate to="/" />
                   ) : (
                     <div className="flex min-h-screen">

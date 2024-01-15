@@ -3,12 +3,12 @@ import { PrimaryButton } from 'components/Button/PrimaryButton';
 import CustomTable from 'components/CustomTable';
 import React, { useEffect, useState } from 'react';
 
-const SignUpRoom = ({ handleChange, options, handleRegister, prev, roomId, setSelectedRoom, selectedRoom }) => {
+const SignUpRoom = ({ handleChange, options, handleRegister, prev, rooms, setSelectedRoom, selectedRoom }) => {
   const [dataSource, setDataSource] = useState([]);
 
   useEffect(() => {
-    setDataSource(roomId);
-  }, [roomId]);
+    setDataSource(rooms);
+  }, [rooms]);
 
   const columns = [
     {
@@ -38,14 +38,16 @@ const SignUpRoom = ({ handleChange, options, handleRegister, prev, roomId, setSe
       key: 'action',
       render: (_, record) => {
         return (
-          <div className="flex gap-3">
-            <PrimaryButton
-              text={selectedRoom._id !== record._id ? 'Chọn phòng' : 'Đã chọn'}
-              disabled={selectedRoom._id === record._id}
-              onClick={() => setSelectedRoom(record)}
-              className="!bg-green-500 !hover:bg-green-400 disabled:!bg-gray-400 cursor-pointer disabled:cursor-not-allowed"
-            />
-          </div>
+          Number(record?.status) === 0 && (
+            <div className="flex gap-3">
+              <PrimaryButton
+                text={selectedRoom._id !== record._id ? 'Chọn phòng' : 'Đã chọn'}
+                disabled={selectedRoom._id === record._id}
+                onClick={() => setSelectedRoom(record)}
+                className="!bg-green-500 !hover:bg-green-400 disabled:!bg-gray-400 cursor-pointer disabled:cursor-not-allowed"
+              />
+            </div>
+          )
         );
       }
     }
@@ -55,7 +57,7 @@ const SignUpRoom = ({ handleChange, options, handleRegister, prev, roomId, setSe
     <div className="bg-white rounded-md">
       <div className="flex flex-col justify-center items-center p-16">
         <div>
-          <div>Phòng</div> <br />
+          <div>Tầng</div> <br />
           <Select
             style={{
               width: 120

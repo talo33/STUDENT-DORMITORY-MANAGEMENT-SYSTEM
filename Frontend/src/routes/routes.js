@@ -14,11 +14,6 @@ import RequestsList from 'pages/Admin/Requests';
 
 // Public
 const Room = React.lazy(() => import('pages/Public/RoomMenuPage'));
-const Booking = React.lazy(() => import('pages/Public/BookingPage'));
-const Orders = React.lazy(() => import('pages/Public/Orders'));
-const OrderDetail = React.lazy(() => import('pages/Public/OrderDetail'));
-const Table = React.lazy(() => import('pages/Public/TablePage'));
-const TableDetail = React.lazy(() => import('pages/Public/TableDetail'));
 const Login = React.lazy(() => import('Validate/Login'));
 const PolicyPage = React.lazy(() => import('pages/Public/PolicyPage'));
 
@@ -33,11 +28,6 @@ const publicRoutes = [
   { path: '/', component: HomePage },
   { path: '/home', component: HomePage },
   { path: '/room', component: Room },
-  { path: '/booking', component: Booking },
-  { path: '/orders', component: Orders },
-  { path: '/orders/:id', component: OrderDetail },
-  { path: '/table-overview', component: Table },
-  { path: '/table-overview/:id', component: TableDetail },
   { path: '/policy/register', component: PolicyPage }
 ];
 

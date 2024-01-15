@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { RoomMenu } from 'DB/MenuDB';
 import RoomMenuDetail from './RoomMenuDetail';
+import { RoomMenu } from 'utils/shared';
 
 const RoomMenuPage = () => {
   const [open, setOpen] = useState(false);
