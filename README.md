@@ -8,6 +8,8 @@ This is the Graduation thesis of Nguyen Thanh Loc and Cao Hoang Khang
 <p>when using a Student account to log in. Students can do a number of operations such as examining comprehensive account information and altering some allowed information, seeing rooms, viewing bills, sending requests such as: check-out request, request room transfer request, room repair request, and dormitory stay extension request.</p>
 <p> Some illustrations for Student accounts </p>
 
+![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/a22e1786-b6d9-4359-a941-e386959272c0)
+
 ![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/375d3ad5-7f03-4c4d-bcb8-e8ce4fca1089)
 
 ![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/9c10e55c-ae0d-4a4b-bef9-e5d57a22039c)
@@ -19,5 +21,13 @@ This is the Graduation thesis of Nguyen Thanh Loc and Cao Hoang Khang
 <p><b>Admin</b></p>
 <p>Once logged in, the Administrator can carry out tasks for the Admin account, including adding new students to the room, searching, modifying, and removing students. The administrator can add, locate, modify, and remove rooms using the room management feature. Additionally, the administrator can authorize requests received by students for check-out, room transfers, room repairs, and extensions of dorm stays, among other service-related functions. Admin may accept, reject, or approve based on each situation. And finally, authorize the invoices when students have paid. </p>
 <p> Some illustrations for Admin accounts </p>
+
+![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/3664034c-2f08-4401-8283-055f9da08c57)
+
+![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/a7f272ae-dd19-4c0e-8823-5dfee3ed0ae5)
+
+![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/4af51f4f-2e21-4ce7-b996-c31f08f81a11)
+
+![image](https://github.com/talo33/STUDENT-DORMITORY-MANAGEMENT-SYSTEM/assets/114129828/05b16562-3b2c-480b-ad3a-e08b7d4d69b1)
 
 
